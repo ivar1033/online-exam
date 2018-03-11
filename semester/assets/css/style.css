@@ -1,0 +1,193 @@
+﻿/*=============================================================
+    Authour URL: www.designbootstrap.com
+    
+    http://www.designbootstrap.com/
+
+    License: MIT
+
+    http://opensource.org/licenses/MIT
+
+    100% Free To use For Personal And Commercial Use.
+
+    IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
+   
+========================================================  */
+
+/*==============================
+GENERAL STYLES
+==============================*/
+
+@import url(http://fonts.googleapis.com/css?family=Anton|Maven+Pro:500,700);
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+    line-height: 25px;
+}
+
+.pad-bottom {
+    padding-bottom: 60px;
+}
+
+section {
+    padding-bottom: 120px;
+    padding-top: 100px;
+}
+
+.btn {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+.set-bk-clr {
+    background-color: #FF2276;
+}
+
+.clr-set {
+    color: #FF2276;
+}
+
+.f-big {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.set-bk-clr:hover {
+    background-color: rgba(107, 1, 41, 0.67);
+}
+/*==============================
+NAVBAR STYLES
+==============================*/
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.navbar-brand {
+padding:0px;
+
+}
+    .navbar-brand img {
+        height:50px;
+    }
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #FFF;
+    }
+
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-weight: 900;
+}
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: #000;
+        text-decoration: none;
+    }
+
+.navbar-default {
+    background-color: #FF2276;
+    border-color: transparent;
+}
+/* ADDED PADDING IN NAVBAR */
+.navbar {
+    padding: 15px;
+    -webkit-transition: background .8s ease-out,padding .8s ease-out;
+    -moz-transition: background .8s ease-out,padding .8s ease-out;
+    transition: background .8s ease-out,padding .8s ease-out;
+}
+/* CLASS FOR REMOVING PADDING IN NAVBAR*/
+.navbar-pad-original {
+    padding: 0px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+/* =============================================================
+  HEADER SECTION STYLES
+ ============================================================ */
+
+#header {
+    background: url(../img/home.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+    #header .overlay {
+        background-color: rgba(3, 3, 3, 0.8);
+        min-height: 700px;
+    }
+
+    #header h1 {
+        line-height: 60px;
+        font-size: 45px;
+        font-weight: 900;
+        padding-top: 180px;
+        padding-bottom: 35px;
+        color: #FF2276;
+    }
+
+
+    #header h4 {
+        line-height: 30px;
+        font-size: 12px;
+        padding-bottom: 40px;
+        text-transform: uppercase;
+    }
+
+/*================================
+    SERVICES STYLES
+==================================*/
+#services {
+    background-color: rgba(237, 237, 237, 1);
+}
+
+    #services i {
+        font-size: 80px;
+        padding: 30px;
+        color: #FF2276;
+    }
+
+    #services h4 {
+        padding-bottom: 5px;
+        padding-top: 15px;
+    }
+
+/*================================
+    SERVICES STYLES
+==================================*/
+
+/* =============================================================
+  FOOTER SECTION STYLES
+ ============================================================ */
+footer {
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 900;
+    background-color: rgba(237, 237, 237, 1);
+}
+
+    footer a, footer a:hover {
+        color: #000;
+        text-decoration: none;
+    }
